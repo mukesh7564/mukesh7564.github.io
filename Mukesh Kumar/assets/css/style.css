@@ -165,11 +165,14 @@ h1, h2, h3, h4, h5, h6 {
      width: 0ch;
   box-sizing: border-box;
   overflow: hidden;
-  font-size: 24px;
+  
   white-space:nowrap;
-  animation: text 4s steps(38, start) infinite alternate;
-  border-right: 3px;
+  animation: text 7s steps(38, start) infinite alternate;
   margin-top: 20px;
+  border-right: 30px;
+  padding-left: 50px;
+  padding-right: 150px;
+  position: relative;
 
   color: rgba(255, 255, 255, 0.8);
 }
@@ -181,6 +184,8 @@ h1, h2, h3, h4, h5, h6 {
   50%{
     width: 38ch;
   }
+
+  
   }
   #header .social-links {
     margin-top: 15px;
