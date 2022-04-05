@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   
   white-space:nowrap;
-  animation: text 4s steps(38, start) infinite alternate;
+  animation: text 7s steps(38, start) infinite alternate;
   margin-top: 20px;
   border-right: 30px;
   padding-left: 50px;
@@ -654,6 +654,119 @@ section .container {
   }
 }
  
+
+
+
+
+/*--------------------------------------------------------------
+# project
+
+--------------------------------------------------------------*/
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  
+  border-radius: 50%;
+  margin:-40px 0 0 40px;
+  position: relative;
+  align-items: center;
+  z-index: 2;
+  border: 6px solid rgba(255, 255, 255, 0.12);
+
+}
+.img-mr{
+  height: 450px;
+  width: 1000px;
+  margin-left: 30px;
+  padding-top:10px;
+  padding-bottom: 20px;
+}
+
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #fff;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 0 45px;
+}
+
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 26px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: rgba(0,0,255, 1);
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1
+}
+
+.testimonials .owl-nav, .testimonials .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.testimonials .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.testimonials .owl-dot.active {
+  background-color: #18d26e !important;
+}
+.assets/sg.gif{
+  height: 100px;
+  width: 200px;
+}
+ 
+ @media (max-width: 767px) {
+    .img-mr{
+       height: 210px;
+      width: 335px;
+      padding: 10px;
+      margin-left: -35px;
+      padding-bottom: 10px;
+   }
+ 
+
+  
+   
+  
+  
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -713,12 +826,12 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
+  background: #0080FF;
   border-color: #18d26e;
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #FF0000;
 }
 
 .services .icon-box:hover .icon i {
@@ -921,10 +1034,10 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
-  position: fixed;
+  
   left: 0;
   right: 0;
   top: 0;
@@ -985,6 +1098,7 @@ section .container {
   font-size: 15px;
   padding: 15px 0 0 0;
 }
+
 
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
